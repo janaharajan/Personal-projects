@@ -1,0 +1,98 @@
+.landingpageHeading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-right: -0.5%;
+    /* background-color: darkkhaki; */
+    margin-top: 1%;
+}
+.landingpageTextSection{
+    margin-top:1.5%;
+
+    background-color: darkolivegreen;
+}
+.home-component-main-layout {
+    margin-top: 3%;
+    /* border: 1px solid darkgray; */
+    /* background-color: lightblue; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* above ml and mr should not ,present in mfd */
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+
+}
+
+.introduction {
+    /* padding: 1em; */
+}
+
+/* .introduction h1 {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.introduction p {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.missoin h1 {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.misson p {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+} */
+/* delete the below btn */
+#ServiceComponent_route{
+    display: none;
+    width: 20%;
+    height: 10%;
+    padding: 2%;
+    background-color: darkkhaki;
+
+}
+/* Portrait and Landscape */
+@media screen and (max-width: 767px) {
+    /* Your smartphone styles here */
+    .home-component-main-layout {
+        margin-top: 3%;
+        /* border: 1px solid darkgray; */
+        /* background-color: lightcoral; */
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-left: 2%;
+        margin-right: 2%;
+        /* above ml and mr should not present in mfd */
+        font-size: clamp(1rem, 1.5vw, 2rem);
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        padding: 1em;
+    
+    }
+  }

@@ -1,0 +1,132 @@
+/* logo  font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+/* navigation menu font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nanum+Gothic&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: black;
+
+}
+
+#logo {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
+    cursor: pointer;
+
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hamburger-icon {
+    /* line-height: 50%; */
+    display: none;
+    /* flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    cursor: pointer;
+    padding: 1rem;
+    /* max-width: 2rem; */
+    /* align-items: center; */
+}
+
+.ham-line {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: black;
+}
+
+.navigation-menu-ul ul {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    margin-top: -10vh;
+    padding: 0;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    /* Center vertically */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+}
+.navigation-menu-ul ul li:hover{
+    border-bottom: 2px solid navy;
+
+}
+.navigation-menu-ul ul li a{
+    color: black;
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /* Your smartphone styles here */
+    /* navigation menu is below which is hided  */
+    .hamburger-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        cursor: pointer;
+        padding: 1rem;
+        max-width: 2rem;
+    }
+
+    .ham-line {
+        width: 2rem;
+        height: 0.2rem;
+        background-color: black;
+    }
+
+    .navigation-menu-ul ul {
+        display: none;
+        flex-direction: column;
+        background-color: beige;
+        /* margin-top: -10vh; */
+        margin-top: -0.5rem;
+        padding: 0;
+        /* gap: 3rem; */
+        /* border: 3px solid black; */
+        /* justify-content: flex-end; */
+        /* Center vertically */
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-size: clamp(1rem, 1.5vw, 2rem);
+    }
+
+    .navigation-menu-ul ul :hover {
+        color: black;
+
+
+    }
+
+    .navigation-menu-ul ul li {
+        height: 4rem;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .navigation-menu-ul ul li:hover {
+        background-color: burlywood;
+    }
+}
